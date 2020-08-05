@@ -1,0 +1,14 @@
+org\ubfs\word\temp\tool\ExeclParseUtil.class
+org\ubfs\word\temp\tool\FileVaildata.class
+org\ubfs\word\temp\service\AbstractWordTemple.class
+org\ubfs\word\temp\service\imple\TableLoopReplaceHandle.class
+org\ubfs\word\temp\annoation\CovertEnum.class
+org\ubfs\word\temp\constant\WordParamsType.class
+org\ubfs\word\temp\annoation\WordTableParams.class
+org\ubfs\word\temp\annoation\WordParams.class
+org\ubfs\word\temp\tool\ExeclParseUtil$1.class
+org\ubfs\word\temp\beans\DocInfo.class
+org\ubfs\word\temp\beans\ParamsBean.class
+org\ubfs\word\temp\beans\ImageInf.class
+org\ubfs\word\temp\annoation\ExeclTitle.class
+org\ubfs\word\temp\beans\BaseWordTemp.class
