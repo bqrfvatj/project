@@ -170,7 +170,7 @@
  4. 构建测试数据
  
 
-> 1.构建报表数据实体类，该类必须继承`BaseWordTemp`
+> 3.1 构建报表数据实体类，该类必须继承`BaseWordTemp`
 
 ```java
 @Setter
@@ -199,7 +199,7 @@ public class ReportDataInfo extends BaseWordTemp{
 }
 ```
 
-> 2.创建第二张表结构，tableList1字段的类型TableInfo实体类，字段的注解与报表数据实体类字段上的注解不同
+> 3.2 创建第二张表结构，tableList1字段的类型TableInfo实体类，字段的注解与报表数据实体类字段上的注解不同
 
 ```java
 @Data
@@ -218,7 +218,7 @@ public class TableInfo {
 	private String telNo;
 }
 ```
-> 2.创建第二张表结构，tableList2字段的类型UserInfo实体类，字段的注解与报表数据实体类字段上的注解不同
+> 3.3 创建第二张表结构，tableList2字段的类型UserInfo实体类，字段的注解与报表数据实体类字段上的注解不同
 
 
 ```java
@@ -240,7 +240,7 @@ public class UserInfo {
 }
 ```
 
-> 3.构造表格测试数据
+> 3.4 构造表格测试数据
 
 ```java
 private void buildListData(ReportDataInfo bodyInfo) {
@@ -272,7 +272,7 @@ private void buildListData(ReportDataInfo bodyInfo) {
 ```
 
 
- 6. 执行数据替换并导出到新的目录
+ 4. 执行数据替换并导出到新的目录
   
 
 ```java
@@ -295,8 +295,7 @@ public static void main(String[] args) {
 ```
 
 ## 结尾
-个人建议啊，在技术选型的时候要有自己的主见，不能人云亦云，就好比我在写这个工具的时候，大家都说poi不好用，看到@象话 这位女博主就提到过，可是我就坚持用poi,研究了不到2小时，确实不好用，哈哈开个玩笑。
+个人建议啊，在技术选型的时候要有自己的主见，不能人云亦云，就好比我在写这个工具的时候，大家都说poi不好用，看到@象话 这位女博主就提到过，可是我就坚持用poi,研究了2小时，确实不好用，哈哈开个玩笑。
 
 > 如果有小伙伴对源码感兴趣的话，在这里分享[源码地址](https://github.com/bqrfvatj/project/tree/office-temp-tool)给大家，欢迎来找茬！！
-
 
